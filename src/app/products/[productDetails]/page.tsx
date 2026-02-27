@@ -49,7 +49,7 @@ export default async function Details({ params }: any) {
             </h4>
             <div className="py-5 flex">
               <AddToWishListBtn2 productId={ data._id} />
-              <AddToCartBtn productId={data._id} roundedType="md" />
+              <AddToCartBtn productId={data._id} rounded="md" />
             </div>
           </div>
           <Link href="/products">
